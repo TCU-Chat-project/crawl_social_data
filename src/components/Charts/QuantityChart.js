@@ -57,10 +57,10 @@ dataChart.reverse();
 
 export default function QuantityChart() {
 	return (
-		<ResponsiveContainer width="100%" height={400}>
+		<ResponsiveContainer width="100%" height={320}>
 			<BarChart
 				width={500}
-				height={300}
+				height={200}
 				data={dataChart}
 				margin={{
 					top: 5,

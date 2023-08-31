@@ -2,10 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: #e6e6ff;
-}
-
 .child {
   height: 100%;
 }
+
+.menu-style {
+
+  height: 100vh;
+  width: 200px;
+  position: fixed;
+  }

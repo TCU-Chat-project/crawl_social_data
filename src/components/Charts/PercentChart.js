@@ -22,14 +22,12 @@ const renderCustomizedLabel = ({ cx, cy, midAngle, innerRadius, outerRadius, per
 
 export default function PercentChart() {
 	return (
-		<PieChart width={500} height={300}>
+		<PieChart width={200} height={200}>
 			<Pie
 				data={data}
-				cx={350}
-				cy={100}
 				labelLine={false}
 				label={renderCustomizedLabel}
-				outerRadius={80}
+				outerRadius={70}
 				fill="#8884d8"
 				dataKey="value"
 			>
